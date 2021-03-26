@@ -8,8 +8,8 @@
         Deploy-package ,job2 containerize the artifact and
         deploy it on Tomcat server manager app.
         Right now we are looking at the results of Container.
-
-        New changes dome
+    </p>
+    <p>   New changes dome
         commit to repo will trigger job 1 again bcz we have defined cron jon in package-application
     </p>
 </body>
