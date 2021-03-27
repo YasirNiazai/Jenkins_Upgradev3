@@ -14,6 +14,14 @@
     </p>
     <p>Change reflecting use of build pipeline plugin </p>
     <h3>Modified the build pipeline to DEV-Prod environment</h3>
+
+    <h4>Finally now deploy @9091 is working , our app is working fine </h4>
+    <h2>ie: packaging-app, and  deploy-stagging-env are auto triggering ie: when a change is done into source code 
+        and commited to repo, packaging app has a cron job defined that runs the pakaging-app job when new change is 
+        observed in source code repository,then it passes build results to the Deploy-proj-stagging-env running @ port:9090,
+         Now stagging-env is a bridge b/w packaging and Deploy-app-prod-env @port:9091,  
+
+    </h2>
 </body>
 
 </html>
