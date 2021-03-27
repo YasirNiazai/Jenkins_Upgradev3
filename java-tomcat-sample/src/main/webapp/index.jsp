@@ -12,6 +12,7 @@
     <p>   New changes dome
         commit to repo will trigger job 1 again bcz we have defined cron jon in package-application
     </p>
+    <p>Change reflecting use of build pipeline plugin </p>
 </body>
 
 </html>
