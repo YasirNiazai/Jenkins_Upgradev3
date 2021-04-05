@@ -15,7 +15,6 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
-                echo "Entered this section"
                 build job: 'Deploy_project-stagging-env'
 
             }
